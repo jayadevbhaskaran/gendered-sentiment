@@ -2,7 +2,7 @@ from os.path import dirname, realpath, join
 from pathlib import Path
 
 class Config:
-    BASE_DIR = Path(realpath(join(dirname(realpath(__file__)), '..')))
+    BASE_DIR = Path(realpath(join(dirname(realpath(__file__)), "..")))
     DATA_DIR = Path(join(BASE_DIR, "data"))
     GLOVE_DIR = Path(join(DATA_DIR, "glove.6b"))
     GLOVE_FILE = Path(join(GLOVE_DIR, "glove.6b.300d.txt"))
