@@ -9,7 +9,7 @@ class Config:
 
     TSV_TRAIN = Path(join(DATA_DIR, "train.tsv"))
     TSV_DEV = Path(join(DATA_DIR, "dev.tsv"))
-    TSV_TEST = Path(join(DATA_DIR, "gender.tsv"))
+    TSV_TEST_GENDER = Path(join(DATA_DIR, "gender.tsv"))
     
     SEED = 42
     

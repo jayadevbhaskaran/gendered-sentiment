@@ -19,16 +19,12 @@ def fit_and_evaluate(X_train, X_dev, y_train, y_dev, clf):
     
         for m in Config.MALE_NOUNS:
             male_sentences.append(m + " is a " + p + ".")
-            male_sentences.append(m + " wants to be a " + p + ".")
             all_male_sentences.append(m + " is a " + p + ".")
-            all_male_sentences.append(m + " wants to be a " + p + ".")
 
     
         for f in Config.FEMALE_NOUNS:
             female_sentences.append(f + " is a " + p + ".")
-            female_sentences.append(f + " wants to be a " + p + ".")
             all_female_sentences.append(f + " is a " + p + ".")
-            all_female_sentences.append(f + " wants to be a " + p + ".")
             
         male_probs = [item[1] for item in clf.predict_proba(male_sentences)]
         female_probs = [item[1] for item in clf.predict_proba(female_sentences)]
