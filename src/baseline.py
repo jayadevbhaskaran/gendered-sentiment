@@ -20,5 +20,11 @@ clf = Pipeline([
             ("logreg_bow", LogisticRegression(random_state=SEED, solver="liblinear"))
         ])
 
-utils.fit_and_evaluate(X_train, X_dev, y_train, y_dev, clf)
+clf.fit(X_train, y_train)
+preds = clf.predict(X_dev)
+print(accuracy_score(y_dev, preds))
+
+sentences = utils.get_sentences()
+preds = [item[1] for item in clf.predict_proba(sentences)]
+(t, prob) = utils.ttest(preds)
 ###############################################################################

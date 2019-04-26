@@ -22,4 +22,4 @@ for p in Config.PROFESSIONS:
         idx = idx + 1
 
 df = pd.DataFrame(items)
-df.to_csv(Config.TSV_TEST_GENDER, sep = "\t", index=False)
+df.to_csv(Config.TSV_TEST_GENDER, sep = "\t", index=False, encoding="utf8")

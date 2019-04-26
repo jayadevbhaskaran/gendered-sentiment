@@ -13,6 +13,8 @@ class Config:
     
     SEED = 42
     
+    MAX_SEQUENCE_LENGTH = 80
+    
     GENDER_M = "male"
     GENDER_F = "female"
     GENDERS = [GENDER_F, GENDER_M]

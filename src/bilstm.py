@@ -19,7 +19,7 @@ train = pd.read_csv(Config.TSV_TRAIN, sep="\t", header=None, names=["idx", "clas
 dev = pd.read_csv(Config.TSV_DEV, sep="\t", header=None, names=["idx", "class", "dummy", "text"])
 X_train, X_dev, y_train, y_dev = train["text"], dev["text"], train["class"], dev["class"]
 X = list(X_train) + list(X_dev) + Config.MALE_NOUNS + Config.FEMALE_NOUNS + Config.PROFESSIONS
-MAX_SEQUENCE_LENGTH = 80
+MAX_SEQUENCE_LENGTH = Config.MAX_SEQUENCE_LENGTH
 
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(X)
@@ -69,3 +69,9 @@ model.compile(
 model.fit(train_data, train_labels, validation_data=(dev_data, dev_labels), 
           epochs=3, shuffle=False,
       )
+
+sentences = utils.get_sentences()
+sequences = tokenizer.texts_to_sequences(sentences)
+test_data = pad_sequences(sequences, maxlen=MAX_SEQUENCE_LENGTH)
+preds = [item[1] for item in model.predict_proba(test_data)]
+(t, prob) = utils.ttest(preds)
