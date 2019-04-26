@@ -21,10 +21,12 @@ clf = Pipeline([
         ])
 
 clf.fit(X_train, y_train)
-preds = clf.predict(X_dev)
-print(accuracy_score(y_dev, preds))
+dev_preds = clf.predict(X_dev)
+print(accuracy_score(y_dev, dev_preds))
 
 sentences = utils.get_sentences()
 preds = [item[1] for item in clf.predict_proba(sentences)]
+file = Config.LOGREG_FILE
+np.savetxt(file, preds, header="dev accuracy: " + str(accuracy_score(y_dev, dev_preds)))
 (t, prob) = utils.ttest(preds)
 ###############################################################################

@@ -4,15 +4,17 @@ from pathlib import Path
 class Config:
     BASE_DIR = Path(realpath(join(dirname(realpath(__file__)), "..")))
     DATA_DIR = Path(join(BASE_DIR, "data"))
+    RUNS_DIR = Path(join(BASE_DIR, "runs"))
     GLOVE_DIR = Path(join(DATA_DIR, "glove.6b"))
     GLOVE_FILE = Path(join(GLOVE_DIR, "glove.6b.300d.txt"))
+    LOGREG_FILE = Path(join(RUNS_DIR, "logreg.txt"))
+    LSTM_FILE = Path(join(RUNS_DIR, "lstm.txt"))
 
     TSV_TRAIN = Path(join(DATA_DIR, "train.tsv"))
     TSV_DEV = Path(join(DATA_DIR, "dev.tsv"))
     TSV_TEST_GENDER = Path(join(DATA_DIR, "gender.tsv"))
     
     SEED = 42
-    
     MAX_SEQUENCE_LENGTH = 80
     
     GENDER_M = "male"

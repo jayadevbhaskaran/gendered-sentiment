@@ -14,6 +14,7 @@ from keras.models import Sequential
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils.np_utils import to_categorical
+from sklearn.metrics import accuracy_score
 
 train = pd.read_csv(Config.TSV_TRAIN, sep="\t", header=None, names=["idx", "class", "dummy", "text"])
 dev = pd.read_csv(Config.TSV_DEV, sep="\t", header=None, names=["idx", "class", "dummy", "text"])
@@ -70,8 +71,14 @@ model.fit(train_data, train_labels, validation_data=(dev_data, dev_labels),
           epochs=3, shuffle=False,
       )
 
+dev_preds = [int(item[1] >= 0.5) for item in model.predict_proba(dev_data)]
+print(accuracy_score(y_dev, dev_preds))
+
 sentences = utils.get_sentences()
 sequences = tokenizer.texts_to_sequences(sentences)
 test_data = pad_sequences(sequences, maxlen=MAX_SEQUENCE_LENGTH)
 preds = [item[1] for item in model.predict_proba(test_data)]
 (t, prob) = utils.ttest(preds)
+
+file = Config.LSTM_FILE
+np.savetxt(file, preds, header="dev accuracy: " + str(accuracy_score(y_dev, dev_preds)))
