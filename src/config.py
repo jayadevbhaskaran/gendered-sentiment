@@ -9,10 +9,13 @@ class Config:
     GLOVE_FILE = Path(join(GLOVE_DIR, "glove.6b.300d.txt"))
     LOGREG_FILE = Path(join(RUNS_DIR, "logreg.txt"))
     LSTM_FILE = Path(join(RUNS_DIR, "lstm.txt"))
+    BERT_FILE = Path(join(Path(join(RUNS_DIR, "gender")), "test_results.tsv"))
+
 
     TSV_TRAIN = Path(join(DATA_DIR, "train.tsv"))
     TSV_DEV = Path(join(DATA_DIR, "dev.tsv"))
     TSV_TEST_GENDER = Path(join(DATA_DIR, "gender.tsv"))
+    
     
     SEED = 42
     MAX_SEQUENCE_LENGTH = 80
