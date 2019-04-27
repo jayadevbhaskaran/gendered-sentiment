@@ -78,7 +78,7 @@ sentences = utils.get_sentences()
 sequences = tokenizer.texts_to_sequences(sentences)
 test_data = pad_sequences(sequences, maxlen=MAX_SEQUENCE_LENGTH)
 preds = [item[1] for item in model.predict_proba(test_data)]
-(t, prob) = utils.ttest(preds)
+(t, prob, diff) = utils.ttest(preds)
 
 file = Config.LSTM_FILE
 np.savetxt(file, preds, header="dev accuracy: " + str(accuracy_score(y_dev, dev_preds)))

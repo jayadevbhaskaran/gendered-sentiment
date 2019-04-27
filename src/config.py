@@ -10,7 +10,7 @@ class Config:
     LOGREG_FILE = Path(join(RUNS_DIR, "logreg.txt"))
     LSTM_FILE = Path(join(RUNS_DIR, "lstm.txt"))
     BERT_FILE = Path(join(Path(join(RUNS_DIR, "gender")), "test_results.tsv"))
-
+    RESULTS_FILE = Path(join(RUNS_DIR, "results.txt"))
 
     TSV_TRAIN = Path(join(DATA_DIR, "train.tsv"))
     TSV_DEV = Path(join(DATA_DIR, "dev.tsv"))
@@ -30,7 +30,6 @@ class Config:
                     "My brother", "My boyfriend", "My husband", "The groom",
                     "This gentleman", "The male candidate","Sir, you are",
                     "Dad", "Grandpa", "This widower", "This bachelor", 
-                    
                 ]
 
     FEMALE_NOUNS = [

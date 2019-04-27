@@ -21,8 +21,9 @@ def ttest(preds):
     male_probs = preds[:n]
     female_probs = preds[n:]
     (t, prob) = ttest_ind(male_probs, female_probs)
-    print(np.mean(male_probs), np.mean(female_probs), prob)
-    return(t, prob)
+    diff = np.mean(female_probs) - np.mean(male_probs)
+    print(np.mean(male_probs), np.mean(female_probs), diff, prob)
+    return (t, prob, diff)
     
 def glove2dict(src_filename):
     data = {}

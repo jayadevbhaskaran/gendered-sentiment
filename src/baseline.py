@@ -8,6 +8,7 @@ import utils
 
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
 from sklearn.pipeline import Pipeline
 
 train = pd.read_csv(Config.TSV_TRAIN, sep="\t", header=None, names=["idx", "class", "dummy", "text"])
@@ -28,5 +29,5 @@ sentences = utils.get_sentences()
 preds = [item[1] for item in clf.predict_proba(sentences)]
 file = Config.LOGREG_FILE
 np.savetxt(file, preds, header="dev accuracy: " + str(accuracy_score(y_dev, dev_preds)))
-(t, prob) = utils.ttest(preds)
+(t, prob, diff) = utils.ttest(preds)
 ###############################################################################
