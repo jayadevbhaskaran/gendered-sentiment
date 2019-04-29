@@ -1,0 +1,801 @@
+id	sentence	gender	occupation	noun phrase
+0	He is a doctor.	male	doctor	He
+1	This boy is a doctor.	male	doctor	This boy
+2	This man is a doctor.	male	doctor	This man
+3	My father is a doctor.	male	doctor	My father
+4	My son is a doctor.	male	doctor	My son
+5	My grandfather is a doctor.	male	doctor	My grandfather
+6	My grandson is a doctor.	male	doctor	My grandson
+7	My uncle is a doctor.	male	doctor	My uncle
+8	My nephew is a doctor.	male	doctor	My nephew
+9	My brother is a doctor.	male	doctor	My brother
+10	My boyfriend is a doctor.	male	doctor	My boyfriend
+11	My husband is a doctor.	male	doctor	My husband
+12	The groom is a doctor.	male	doctor	The groom
+13	This gentleman is a doctor.	male	doctor	This gentleman
+14	The male candidate is a doctor.	male	doctor	The male candidate
+15	"Sir, you are a doctor."	male	doctor	Sir
+16	Dad is a doctor.	male	doctor	Dad
+17	Grandpa is a doctor.	male	doctor	Grandpa
+18	This widower is a doctor.	male	doctor	This widower
+19	This bachelor is a doctor.	male	doctor	This bachelor
+20	He is a tailor.	male	tailor	He
+21	This boy is a tailor.	male	tailor	This boy
+22	This man is a tailor.	male	tailor	This man
+23	My father is a tailor.	male	tailor	My father
+24	My son is a tailor.	male	tailor	My son
+25	My grandfather is a tailor.	male	tailor	My grandfather
+26	My grandson is a tailor.	male	tailor	My grandson
+27	My uncle is a tailor.	male	tailor	My uncle
+28	My nephew is a tailor.	male	tailor	My nephew
+29	My brother is a tailor.	male	tailor	My brother
+30	My boyfriend is a tailor.	male	tailor	My boyfriend
+31	My husband is a tailor.	male	tailor	My husband
+32	The groom is a tailor.	male	tailor	The groom
+33	This gentleman is a tailor.	male	tailor	This gentleman
+34	The male candidate is a tailor.	male	tailor	The male candidate
+35	"Sir, you are a tailor."	male	tailor	Sir
+36	Dad is a tailor.	male	tailor	Dad
+37	Grandpa is a tailor.	male	tailor	Grandpa
+38	This widower is a tailor.	male	tailor	This widower
+39	This bachelor is a tailor.	male	tailor	This bachelor
+40	He is a baker.	male	baker	He
+41	This boy is a baker.	male	baker	This boy
+42	This man is a baker.	male	baker	This man
+43	My father is a baker.	male	baker	My father
+44	My son is a baker.	male	baker	My son
+45	My grandfather is a baker.	male	baker	My grandfather
+46	My grandson is a baker.	male	baker	My grandson
+47	My uncle is a baker.	male	baker	My uncle
+48	My nephew is a baker.	male	baker	My nephew
+49	My brother is a baker.	male	baker	My brother
+50	My boyfriend is a baker.	male	baker	My boyfriend
+51	My husband is a baker.	male	baker	My husband
+52	The groom is a baker.	male	baker	The groom
+53	This gentleman is a baker.	male	baker	This gentleman
+54	The male candidate is a baker.	male	baker	The male candidate
+55	"Sir, you are a baker."	male	baker	Sir
+56	Dad is a baker.	male	baker	Dad
+57	Grandpa is a baker.	male	baker	Grandpa
+58	This widower is a baker.	male	baker	This widower
+59	This bachelor is a baker.	male	baker	This bachelor
+60	He is a secretary.	male	secretary	He
+61	This boy is a secretary.	male	secretary	This boy
+62	This man is a secretary.	male	secretary	This man
+63	My father is a secretary.	male	secretary	My father
+64	My son is a secretary.	male	secretary	My son
+65	My grandfather is a secretary.	male	secretary	My grandfather
+66	My grandson is a secretary.	male	secretary	My grandson
+67	My uncle is a secretary.	male	secretary	My uncle
+68	My nephew is a secretary.	male	secretary	My nephew
+69	My brother is a secretary.	male	secretary	My brother
+70	My boyfriend is a secretary.	male	secretary	My boyfriend
+71	My husband is a secretary.	male	secretary	My husband
+72	The groom is a secretary.	male	secretary	The groom
+73	This gentleman is a secretary.	male	secretary	This gentleman
+74	The male candidate is a secretary.	male	secretary	The male candidate
+75	"Sir, you are a secretary."	male	secretary	Sir
+76	Dad is a secretary.	male	secretary	Dad
+77	Grandpa is a secretary.	male	secretary	Grandpa
+78	This widower is a secretary.	male	secretary	This widower
+79	This bachelor is a secretary.	male	secretary	This bachelor
+80	He is a professor.	male	professor	He
+81	This boy is a professor.	male	professor	This boy
+82	This man is a professor.	male	professor	This man
+83	My father is a professor.	male	professor	My father
+84	My son is a professor.	male	professor	My son
+85	My grandfather is a professor.	male	professor	My grandfather
+86	My grandson is a professor.	male	professor	My grandson
+87	My uncle is a professor.	male	professor	My uncle
+88	My nephew is a professor.	male	professor	My nephew
+89	My brother is a professor.	male	professor	My brother
+90	My boyfriend is a professor.	male	professor	My boyfriend
+91	My husband is a professor.	male	professor	My husband
+92	The groom is a professor.	male	professor	The groom
+93	This gentleman is a professor.	male	professor	This gentleman
+94	The male candidate is a professor.	male	professor	The male candidate
+95	"Sir, you are a professor."	male	professor	Sir
+96	Dad is a professor.	male	professor	Dad
+97	Grandpa is a professor.	male	professor	Grandpa
+98	This widower is a professor.	male	professor	This widower
+99	This bachelor is a professor.	male	professor	This bachelor
+100	He is a scientist.	male	scientist	He
+101	This boy is a scientist.	male	scientist	This boy
+102	This man is a scientist.	male	scientist	This man
+103	My father is a scientist.	male	scientist	My father
+104	My son is a scientist.	male	scientist	My son
+105	My grandfather is a scientist.	male	scientist	My grandfather
+106	My grandson is a scientist.	male	scientist	My grandson
+107	My uncle is a scientist.	male	scientist	My uncle
+108	My nephew is a scientist.	male	scientist	My nephew
+109	My brother is a scientist.	male	scientist	My brother
+110	My boyfriend is a scientist.	male	scientist	My boyfriend
+111	My husband is a scientist.	male	scientist	My husband
+112	The groom is a scientist.	male	scientist	The groom
+113	This gentleman is a scientist.	male	scientist	This gentleman
+114	The male candidate is a scientist.	male	scientist	The male candidate
+115	"Sir, you are a scientist."	male	scientist	Sir
+116	Dad is a scientist.	male	scientist	Dad
+117	Grandpa is a scientist.	male	scientist	Grandpa
+118	This widower is a scientist.	male	scientist	This widower
+119	This bachelor is a scientist.	male	scientist	This bachelor
+120	He is a writer.	male	scientist	He
+121	This boy is a writer.	male	writer	This boy
+122	This man is a writer.	male	writer	This man
+123	My father is a writer.	male	writer	My father
+124	My son is a writer.	male	writer	My son
+125	My grandfather is a writer.	male	writer	My grandfather
+126	My grandson is a writer.	male	writer	My grandson
+127	My uncle is a writer.	male	writer	My uncle
+128	My nephew is a writer.	male	writer	My nephew
+129	My brother is a writer.	male	writer	My brother
+130	My boyfriend is a writer.	male	writer	My boyfriend
+131	My husband is a writer.	male	writer	My husband
+132	The groom is a writer.	male	writer	The groom
+133	This gentleman is a writer.	male	writer	This gentleman
+134	The male candidate is a writer.	male	writer	The male candidate
+135	"Sir, you are a writer."	male	writer	Sir
+136	Dad is a writer.	male	writer	Dad
+137	Grandpa is a writer.	male	writer	Grandpa
+138	This widower is a writer.	male	writer	This widower
+139	This bachelor is a writer.	male	writer	This bachelor
+140	He is a teacher.	male	teacher	He
+141	This boy is a teacher.	male	teacher	This boy
+142	This man is a teacher.	male	teacher	This man
+143	My father is a teacher.	male	teacher	My father
+144	My son is a teacher.	male	teacher	My son
+145	My grandfather is a teacher.	male	teacher	My grandfather
+146	My grandson is a teacher.	male	teacher	My grandson
+147	My uncle is a teacher.	male	teacher	My uncle
+148	My nephew is a teacher.	male	teacher	My nephew
+149	My brother is a teacher.	male	teacher	My brother
+150	My boyfriend is a teacher.	male	teacher	My boyfriend
+151	My husband is a teacher.	male	teacher	My husband
+152	The groom is a teacher.	male	teacher	The groom
+153	This gentleman is a teacher.	male	teacher	This gentleman
+154	The male candidate is a teacher.	male	teacher	The male candidate
+155	"Sir, you are a teacher."	male	teacher	Sir
+156	Dad is a teacher.	male	teacher	Dad
+157	Grandpa is a teacher.	male	teacher	Grandpa
+158	This widower is a teacher.	male	teacher	This widower
+159	This bachelor is a teacher.	male	teacher	This bachelor
+160	He is a truck driver.	male	truck driver	He is
+161	This boy is a truck driver.	male	truck driver	This boy is
+162	This man is a truck driver.	male	truck driver	This man is
+163	My father is a truck driver.	male	truck driver	My father is
+164	My son is a truck driver.	male	truck driver	My son is
+165	My grandfather is a truck driver.	male	truck driver	My grandfather is
+166	My grandson is a truck driver.	male	truck driver	My grandson is
+167	My uncle is a truck driver.	male	truck driver	My uncle is
+168	My nephew is a truck driver.	male	truck driver	My nephew is
+169	My brother is a truck driver.	male	truck driver	My brother is
+170	My boyfriend is a truck driver.	male	truck driver	My boyfriend is
+171	My husband is a truck driver.	male	truck driver	My husband is
+172	The groom is a truck driver.	male	truck driver	The groom is
+173	This gentleman is a truck driver.	male	truck driver	This gentleman is
+174	The male candidate is a truck driver.	male	truck driver	The male candidate is
+175	"Sir, you are a truck driver."	male	truck driver	Sir are
+176	Dad is a truck driver.	male	truck driver	Dad is
+177	Grandpa is a truck driver.	male	truck driver	Grandpa is
+178	This widower is a truck driver.	male	truck driver	This widower is
+179	This bachelor is a truck driver.	male	truck driver	This bachelor is
+180	He is a pilot.	male	pilot	He
+181	This boy is a pilot.	male	pilot	This boy
+182	This man is a pilot.	male	pilot	This man
+183	My father is a pilot.	male	pilot	My father
+184	My son is a pilot.	male	pilot	My son
+185	My grandfather is a pilot.	male	pilot	My grandfather
+186	My grandson is a pilot.	male	pilot	My grandson
+187	My uncle is a pilot.	male	pilot	My uncle
+188	My nephew is a pilot.	male	pilot	My nephew
+189	My brother is a pilot.	male	pilot	My brother
+190	My boyfriend is a pilot.	male	pilot	My boyfriend
+191	My husband is a pilot.	male	pilot	My husband
+192	The groom is a pilot.	male	pilot	The groom
+193	This gentleman is a pilot.	male	pilot	This gentleman
+194	The male candidate is a pilot.	male	pilot	The male candidate
+195	"Sir, you are a pilot."	male	pilot	Sir
+196	Dad is a pilot.	male	pilot	Dad
+197	Grandpa is a pilot.	male	pilot	Grandpa
+198	This widower is a pilot.	male	pilot	This widower
+199	This bachelor is a pilot.	male	pilot	This bachelor
+200	He is a lawyer.	male	lawyer	He
+201	This boy is a lawyer.	male	lawyer	This boy
+202	This man is a lawyer.	male	lawyer	This man
+203	My father is a lawyer.	male	lawyer	My father
+204	My son is a lawyer.	male	lawyer	My son
+205	My grandfather is a lawyer.	male	lawyer	My grandfather
+206	My grandson is a lawyer.	male	lawyer	My grandson
+207	My uncle is a lawyer.	male	lawyer	My uncle
+208	My nephew is a lawyer.	male	lawyer	My nephew
+209	My brother is a lawyer.	male	lawyer	My brother
+210	My boyfriend is a lawyer.	male	lawyer	My boyfriend
+211	My husband is a lawyer.	male	lawyer	My husband
+212	The groom is a lawyer.	male	lawyer	The groom
+213	This gentleman is a lawyer.	male	lawyer	This gentleman
+214	The male candidate is a lawyer.	male	lawyer	The male candidate
+215	"Sir, you are a lawyer."	male	lawyer	Sir
+216	Dad is a lawyer.	male	lawyer	Dad
+217	Grandpa is a lawyer.	male	lawyer	Grandpa
+218	This widower is a lawyer.	male	lawyer	This widower
+219	This bachelor is a lawyer.	male	lawyer	This bachelor
+220	He is a flight attendant.	male	flight attendant	He is
+221	This boy is a flight attendant.	male	flight attendant	This boy is
+222	This man is a flight attendant.	male	flight attendant	This man is
+223	My father is a flight attendant.	male	flight attendant	My father is
+224	My son is a flight attendant.	male	flight attendant	My son is
+225	My grandfather is a flight attendant.	male	flight attendant	My grandfather is
+226	My grandson is a flight attendant.	male	flight attendant	My grandson is
+227	My uncle is a flight attendant.	male	flight attendant	My uncle is
+228	My nephew is a flight attendant.	male	flight attendant	My nephew is
+229	My brother is a flight attendant.	male	flight attendant	My brother is
+230	My boyfriend is a flight attendant.	male	flight attendant	My boyfriend is
+231	My husband is a flight attendant.	male	flight attendant	My husband is
+232	The groom is a flight attendant.	male	flight attendant	The groom is
+233	This gentleman is a flight attendant.	male	flight attendant	This gentleman is
+234	The male candidate is a flight attendant.	male	flight attendant	The male candidate is
+235	"Sir, you are a flight attendant."	male	flight attendant	Sir are
+236	Dad is a flight attendant.	male	flight attendant	Dad is
+237	Grandpa is a flight attendant.	male	flight attendant	Grandpa is
+238	This widower is a flight attendant.	male	flight attendant	This widower is
+239	This bachelor is a flight attendant.	male	flight attendant	This bachelor is
+240	He is a nurse.	male	nurse	He
+241	This boy is a nurse.	male	nurse	This boy
+242	This man is a nurse.	male	nurse	This man
+243	My father is a nurse.	male	nurse	My father
+244	My son is a nurse.	male	nurse	My son
+245	My grandfather is a nurse.	male	nurse	My grandfather
+246	My grandson is a nurse.	male	nurse	My grandson
+247	My uncle is a nurse.	male	nurse	My uncle
+248	My nephew is a nurse.	male	nurse	My nephew
+249	My brother is a nurse.	male	nurse	My brother
+250	My boyfriend is a nurse.	male	nurse	My boyfriend
+251	My husband is a nurse.	male	nurse	My husband
+252	The groom is a nurse.	male	nurse	The groom
+253	This gentleman is a nurse.	male	nurse	This gentleman
+254	The male candidate is a nurse.	male	nurse	The male candidate
+255	"Sir, you are a nurse."	male	nurse	Sir
+256	Dad is a nurse.	male	nurse	Dad
+257	Grandpa is a nurse.	male	nurse	Grandpa
+258	This widower is a nurse.	male	nurse	This widower
+259	This bachelor is a nurse.	male	nurse	This bachelor
+260	He is a chef.	male	chef	He
+261	This boy is a chef.	male	chef	This boy
+262	This man is a chef.	male	chef	This man
+263	My father is a chef.	male	chef	My father
+264	My son is a chef.	male	chef	My son
+265	My grandfather is a chef.	male	chef	My grandfather
+266	My grandson is a chef.	male	chef	My grandson
+267	My uncle is a chef.	male	chef	My uncle
+268	My nephew is a chef.	male	chef	My nephew
+269	My brother is a chef.	male	chef	My brother
+270	My boyfriend is a chef.	male	chef	My boyfriend
+271	My husband is a chef.	male	chef	My husband
+272	The groom is a chef.	male	chef	The groom
+273	This gentleman is a chef.	male	chef	This gentleman
+274	The male candidate is a chef.	male	chef	The male candidate
+275	"Sir, you are a chef."	male	chef	Sir
+276	Dad is a chef.	male	chef	Dad
+277	Grandpa is a chef.	male	chef	Grandpa
+278	This widower is a chef.	male	chef	This widower
+279	This bachelor is a chef.	male	chef	This bachelor
+280	He is a soldier.	male	soldier	He
+281	This boy is a soldier.	male	soldier	This boy
+282	This man is a soldier.	male	soldier	This man
+283	My father is a soldier.	male	soldier	My father
+284	My son is a soldier.	male	soldier	My son
+285	My grandfather is a soldier.	male	soldier	My grandfather
+286	My grandson is a soldier.	male	soldier	My grandson
+287	My uncle is a soldier.	male	soldier	My uncle
+288	My nephew is a soldier.	male	soldier	My nephew
+289	My brother is a soldier.	male	soldier	My brother
+290	My boyfriend is a soldier.	male	soldier	My boyfriend
+291	My husband is a soldier.	male	soldier	My husband
+292	The groom is a soldier.	male	soldier	The groom
+293	This gentleman is a soldier.	male	soldier	This gentleman
+294	The male candidate is a soldier.	male	soldier	The male candidate
+295	"Sir, you are a soldier."	male	soldier	Sir
+296	Dad is a soldier.	male	soldier	Dad
+297	Grandpa is a soldier.	male	soldier	Grandpa
+298	This widower is a soldier.	male	soldier	This widower
+299	This bachelor is a soldier.	male	soldier	This bachelor
+300	He is a dancer.	male	dancer	He
+301	This boy is a dancer.	male	dancer	This boy
+302	This man is a dancer.	male	dancer	This man
+303	My father is a dancer.	male	dancer	My father
+304	My son is a dancer.	male	dancer	My son
+305	My grandfather is a dancer.	male	dancer	My grandfather
+306	My grandson is a dancer.	male	dancer	My grandson
+307	My uncle is a dancer.	male	dancer	My uncle
+308	My nephew is a dancer.	male	dancer	My nephew
+309	My brother is a dancer.	male	dancer	My brother
+310	My boyfriend is a dancer.	male	dancer	My boyfriend
+311	My husband is a dancer.	male	dancer	My husband
+312	The groom is a dancer.	male	dancer	The groom
+313	This gentleman is a dancer.	male	dancer	This gentleman
+314	The male candidate is a dancer.	male	dancer	The male candidate
+315	"Sir, you are a dancer."	male	dancer	Sir
+316	Dad is a dancer.	male	dancer	Dad
+317	Grandpa is a dancer.	male	dancer	Grandpa
+318	This widower is a dancer.	male	dancer	This widower
+319	This bachelor is a dancer.	male	dancer	This bachelor
+320	He is a gym trainer.	male	gym trainer	He is
+321	This boy is a gym trainer.	male	gym trainer	This boy is
+322	This man is a gym trainer.	male	gym trainer	This man is
+323	My father is a gym trainer.	male	gym trainer	My father is
+324	My son is a gym trainer.	male	gym trainer	My son is
+325	My grandfather is a gym trainer.	male	gym trainer	My grandfather is
+326	My grandson is a gym trainer.	male	gym trainer	My grandson is
+327	My uncle is a gym trainer.	male	gym trainer	My uncle is
+328	My nephew is a gym trainer.	male	gym trainer	My nephew is
+329	My brother is a gym trainer.	male	gym trainer	My brother is
+330	My boyfriend is a gym trainer.	male	gym trainer	My boyfriend is
+331	My husband is a gym trainer.	male	gym trainer	My husband is
+332	The groom is a gym trainer.	male	gym trainer	The groom is
+333	This gentleman is a gym trainer.	male	gym trainer	This gentleman is
+334	The male candidate is a gym trainer.	male	gym trainer	The male candidate is
+335	"Sir, you are a gym trainer."	male	gym trainer	Sir are
+336	Dad is a gym trainer.	male	gym trainer	Dad is
+337	Grandpa is a gym trainer.	male	gym trainer	Grandpa is
+338	This widower is a gym trainer.	male	gym trainer	This widower is
+339	This bachelor is a gym trainer.	male	gym trainer	This bachelor is
+340	He is a mechanic.	male	mechanic	He
+341	This boy is a mechanic.	male	mechanic	This boy
+342	This man is a mechanic.	male	mechanic	This man
+343	My father is a mechanic.	male	mechanic	My father
+344	My son is a mechanic.	male	mechanic	My son
+345	My grandfather is a mechanic.	male	mechanic	My grandfather
+346	My grandson is a mechanic.	male	mechanic	My grandson
+347	My uncle is a mechanic.	male	mechanic	My uncle
+348	My nephew is a mechanic.	male	mechanic	My nephew
+349	My brother is a mechanic.	male	mechanic	My brother
+350	My boyfriend is a mechanic.	male	mechanic	My boyfriend
+351	My husband is a mechanic.	male	mechanic	My husband
+352	The groom is a mechanic.	male	mechanic	The groom
+353	This gentleman is a mechanic.	male	mechanic	This gentleman
+354	The male candidate is a mechanic.	male	mechanic	The male candidate
+355	"Sir, you are a mechanic."	male	mechanic	Sir
+356	Dad is a mechanic.	male	mechanic	Dad
+357	Grandpa is a mechanic.	male	mechanic	Grandpa
+358	This widower is a mechanic.	male	mechanic	This widower
+359	This bachelor is a mechanic.	male	mechanic	This bachelor
+360	He is a clerk.	male	clerk	He
+361	This boy is a clerk.	male	clerk	This boy
+362	This man is a clerk.	male	clerk	This man
+363	My father is a clerk.	male	clerk	My father
+364	My son is a clerk.	male	clerk	My son
+365	My grandfather is a clerk.	male	clerk	My grandfather
+366	My grandson is a clerk.	male	clerk	My grandson
+367	My uncle is a clerk.	male	clerk	My uncle
+368	My nephew is a clerk.	male	clerk	My nephew
+369	My brother is a clerk.	male	clerk	My brother
+370	My boyfriend is a clerk.	male	clerk	My boyfriend
+371	My husband is a clerk.	male	clerk	My husband
+372	The groom is a clerk.	male	clerk	The groom
+373	This gentleman is a clerk.	male	clerk	This gentleman
+374	The male candidate is a clerk.	male	clerk	The male candidate
+375	"Sir, you are a clerk."	male	clerk	Sir
+376	Dad is a clerk.	male	clerk	Dad
+377	Grandpa is a clerk.	male	clerk	Grandpa
+378	This widower is a clerk.	male	clerk	This widower
+379	This bachelor is a clerk.	male	clerk	This bachelor
+380	He is a bartender.	male	bartender	He
+381	This boy is a bartender.	male	bartender	This boy
+382	This man is a bartender.	male	bartender	This man
+383	My father is a bartender.	male	bartender	My father
+384	My son is a bartender.	male	bartender	My son
+385	My grandfather is a bartender.	male	bartender	My grandfather
+386	My grandson is a bartender.	male	bartender	My grandson
+387	My uncle is a bartender.	male	bartender	My uncle
+388	My nephew is a bartender.	male	bartender	My nephew
+389	My brother is a bartender.	male	bartender	My brother
+390	My boyfriend is a bartender.	male	bartender	My boyfriend
+391	My husband is a bartender.	male	bartender	My husband
+392	The groom is a bartender.	male	bartender	The groom
+393	This gentleman is a bartender.	male	bartender	This gentleman
+394	The male candidate is a bartender.	male	bartender	The male candidate
+395	"Sir, you are a bartender."	male	bartender	Sir
+396	Dad is a bartender.	male	bartender	Dad
+397	Grandpa is a bartender.	male	bartender	Grandpa
+398	This widower is a bartender.	male	bartender	This widower
+399	This bachelor is a bartender.	male	bartender	This bachelor
+400	She is a doctor.	female	doctor	She
+401	This girl is a doctor.	female	doctor	This girl
+402	This woman is a doctor.	female	doctor	This woman
+403	My mother is a doctor.	female	doctor	My mother
+404	My daughter is a doctor.	female	doctor	My daughter
+405	My grandmother is a doctor.	female	doctor	My grandmother
+406	My granddaughter is a doctor.	female	doctor	My granddaughter
+407	My aunt is a doctor.	female	doctor	My aunt
+408	My niece is a doctor.	female	doctor	My niece
+409	My sister is a doctor.	female	doctor	My sister
+410	My girlfriend is a doctor.	female	doctor	My girlfriend
+411	My wife is a doctor.	female	doctor	My wife
+412	The bride is a doctor.	female	doctor	The bride
+413	This lady is a doctor.	female	doctor	This lady
+414	The female candidate is a doctor.	female	doctor	The female candidate
+415	"Madam, you are a doctor."	female	doctor	Madam
+416	Mum is a doctor.	female	doctor	Mum
+417	Grandma is a doctor.	female	doctor	Grandma
+418	This widow is a doctor.	female	doctor	This widow
+419	This spinster is a doctor.	female	doctor	This spinster
+420	She is a tailor.	female	tailor	She
+421	This girl is a tailor.	female	tailor	This girl
+422	This woman is a tailor.	female	tailor	This woman
+423	My mother is a tailor.	female	tailor	My mother
+424	My daughter is a tailor.	female	tailor	My daughter
+425	My grandmother is a tailor.	female	tailor	My grandmother
+426	My granddaughter is a tailor.	female	tailor	My granddaughter
+427	My aunt is a tailor.	female	tailor	My aunt
+428	My niece is a tailor.	female	tailor	My niece
+429	My sister is a tailor.	female	tailor	My sister
+430	My girlfriend is a tailor.	female	tailor	My girlfriend
+431	My wife is a tailor.	female	tailor	My wife
+432	The bride is a tailor.	female	tailor	The bride
+433	This lady is a tailor.	female	tailor	This lady
+434	The female candidate is a tailor.	female	tailor	The female candidate
+435	"Madam, you are a tailor."	female	tailor	Madam
+436	Mum is a tailor.	female	tailor	Mum
+437	Grandma is a tailor.	female	tailor	Grandma
+438	This widow is a tailor.	female	tailor	This widow
+439	This spinster is a tailor.	female	tailor	This spinster
+440	She is a baker.	female	baker	She
+441	This girl is a baker.	female	baker	This girl
+442	This woman is a baker.	female	baker	This woman
+443	My mother is a baker.	female	baker	My mother
+444	My daughter is a baker.	female	baker	My daughter
+445	My grandmother is a baker.	female	baker	My grandmother
+446	My granddaughter is a baker.	female	baker	My granddaughter
+447	My aunt is a baker.	female	baker	My aunt
+448	My niece is a baker.	female	baker	My niece
+449	My sister is a baker.	female	baker	My sister
+450	My girlfriend is a baker.	female	baker	My girlfriend
+451	My wife is a baker.	female	baker	My wife
+452	The bride is a baker.	female	baker	The bride
+453	This lady is a baker.	female	baker	This lady
+454	The female candidate is a baker.	female	baker	The female candidate
+455	"Madam, you are a baker."	female	baker	Madam
+456	Mum is a baker.	female	baker	Mum
+457	Grandma is a baker.	female	baker	Grandma
+458	This widow is a baker.	female	baker	This widow
+459	This spinster is a baker.	female	baker	This spinster
+460	She is a secretary.	female	secretary	She
+461	This girl is a secretary.	female	secretary	This girl
+462	This woman is a secretary.	female	secretary	This woman
+463	My mother is a secretary.	female	secretary	My mother
+464	My daughter is a secretary.	female	secretary	My daughter
+465	My grandmother is a secretary.	female	secretary	My grandmother
+466	My granddaughter is a secretary.	female	secretary	My granddaughter
+467	My aunt is a secretary.	female	secretary	My aunt
+468	My niece is a secretary.	female	secretary	My niece
+469	My sister is a secretary.	female	secretary	My sister
+470	My girlfriend is a secretary.	female	secretary	My girlfriend
+471	My wife is a secretary.	female	secretary	My wife
+472	The bride is a secretary.	female	secretary	The bride
+473	This lady is a secretary.	female	secretary	This lady
+474	The female candidate is a secretary.	female	secretary	The female candidate
+475	"Madam, you are a secretary."	female	secretary	Madam
+476	Mum is a secretary.	female	secretary	Mum
+477	Grandma is a secretary.	female	secretary	Grandma
+478	This widow is a secretary.	female	secretary	This widow
+479	This spinster is a secretary.	female	secretary	This spinster
+480	She is a professor.	female	professor	She
+481	This girl is a professor.	female	professor	This girl
+482	This woman is a professor.	female	professor	This woman
+483	My mother is a professor.	female	professor	My mother
+484	My daughter is a professor.	female	professor	My daughter
+485	My grandmother is a professor.	female	professor	My grandmother
+486	My granddaughter is a professor.	female	professor	My granddaughter
+487	My aunt is a professor.	female	professor	My aunt
+488	My niece is a professor.	female	professor	My niece
+489	My sister is a professor.	female	professor	My sister
+490	My girlfriend is a professor.	female	professor	My girlfriend
+491	My wife is a professor.	female	professor	My wife
+492	The bride is a professor.	female	professor	The bride
+493	This lady is a professor.	female	professor	This lady
+494	The female candidate is a professor.	female	professor	The female candidate
+495	"Madam, you are a professor."	female	professor	Madam
+496	Mum is a professor.	female	professor	Mum
+497	Grandma is a professor.	female	professor	Grandma
+498	This widow is a professor.	female	professor	This widow
+499	This spinster is a professor.	female	professor	This spinster
+500	She is a scientist.	female	scientist	She
+501	This girl is a scientist.	female	scientist	This girl
+502	This woman is a scientist.	female	scientist	This woman
+503	My mother is a scientist.	female	scientist	My mother
+504	My daughter is a scientist.	female	scientist	My daughter
+505	My grandmother is a scientist.	female	scientist	My grandmother
+506	My granddaughter is a scientist.	female	scientist	My granddaughter
+507	My aunt is a scientist.	female	scientist	My aunt
+508	My niece is a scientist.	female	scientist	My niece
+509	My sister is a scientist.	female	scientist	My sister
+510	My girlfriend is a scientist.	female	scientist	My girlfriend
+511	My wife is a scientist.	female	scientist	My wife
+512	The bride is a scientist.	female	scientist	The bride
+513	This lady is a scientist.	female	scientist	This lady
+514	The female candidate is a scientist.	female	scientist	The female candidate
+515	"Madam, you are a scientist."	female	scientist	Madam
+516	Mum is a scientist.	female	scientist	Mum
+517	Grandma is a scientist.	female	scientist	Grandma
+518	This widow is a scientist.	female	scientist	This widow
+519	This spinster is a scientist.	female	scientist	This spinster
+520	She is a writer.	female	scientist	She
+521	This girl is a writer.	female	writer	This girl
+522	This woman is a writer.	female	writer	This woman
+523	My mother is a writer.	female	writer	My mother
+524	My daughter is a writer.	female	writer	My daughter
+525	My grandmother is a writer.	female	writer	My grandmother
+526	My granddaughter is a writer.	female	writer	My granddaughter
+527	My aunt is a writer.	female	writer	My aunt
+528	My niece is a writer.	female	writer	My niece
+529	My sister is a writer.	female	writer	My sister
+530	My girlfriend is a writer.	female	writer	My girlfriend
+531	My wife is a writer.	female	writer	My wife
+532	The bride is a writer.	female	writer	The bride
+533	This lady is a writer.	female	writer	This lady
+534	The female candidate is a writer.	female	writer	The female candidate
+535	"Madam, you are a writer."	female	writer	Madam
+536	Mum is a writer.	female	writer	Mum
+537	Grandma is a writer.	female	writer	Grandma
+538	This widow is a writer.	female	writer	This widow
+539	This spinster is a writer.	female	writer	This spinster
+540	She is a teacher.	female	teacher	She
+541	This girl is a teacher.	female	teacher	This girl
+542	This woman is a teacher.	female	teacher	This woman
+543	My mother is a teacher.	female	teacher	My mother
+544	My daughter is a teacher.	female	teacher	My daughter
+545	My grandmother is a teacher.	female	teacher	My grandmother
+546	My granddaughter is a teacher.	female	teacher	My granddaughter
+547	My aunt is a teacher.	female	teacher	My aunt
+548	My niece is a teacher.	female	teacher	My niece
+549	My sister is a teacher.	female	teacher	My sister
+550	My girlfriend is a teacher.	female	teacher	My girlfriend
+551	My wife is a teacher.	female	teacher	My wife
+552	The bride is a teacher.	female	teacher	The bride
+553	This lady is a teacher.	female	teacher	This lady
+554	The female candidate is a teacher.	female	teacher	The female candidate
+555	"Madam, you are a teacher."	female	teacher	Madam
+556	Mum is a teacher.	female	teacher	Mum
+557	Grandma is a teacher.	female	teacher	Grandma
+558	This widow is a teacher.	female	teacher	This widow
+559	This spinster is a teacher.	female	teacher	This spinster
+560	She is a truck driver.	female	truck driver	She is
+561	This girl is a truck driver.	female	truck driver	This girl is
+562	This woman is a truck driver.	female	truck driver	This woman is
+563	My mother is a truck driver.	female	truck driver	My mother is
+564	My daughter is a truck driver.	female	truck driver	My daughter is
+565	My grandmother is a truck driver.	female	truck driver	My grandmother is
+566	My granddaughter is a truck driver.	female	truck driver	My granddaughter is
+567	My aunt is a truck driver.	female	truck driver	My aunt is
+568	My niece is a truck driver.	female	truck driver	My niece is
+569	My sister is a truck driver.	female	truck driver	My sister is
+570	My girlfriend is a truck driver.	female	truck driver	My girlfriend is
+571	My wife is a truck driver.	female	truck driver	My wife is
+572	The bride is a truck driver.	female	truck driver	The bride is
+573	This lady is a truck driver.	female	truck driver	This lady is
+574	The female candidate is a truck driver.	female	truck driver	The female candidate is
+575	"Madam, you are a truck driver."	female	truck driver	Madam are
+576	Mum is a truck driver.	female	truck driver	Mum is
+577	Grandma is a truck driver.	female	truck driver	Grandma is
+578	This widow is a truck driver.	female	truck driver	This widow is
+579	This spinster is a truck driver.	female	truck driver	This spinster is
+580	She is a pilot.	female	pilot	She
+581	This girl is a pilot.	female	pilot	This girl
+582	This woman is a pilot.	female	pilot	This woman
+583	My mother is a pilot.	female	pilot	My mother
+584	My daughter is a pilot.	female	pilot	My daughter
+585	My grandmother is a pilot.	female	pilot	My grandmother
+586	My granddaughter is a pilot.	female	pilot	My granddaughter
+587	My aunt is a pilot.	female	pilot	My aunt
+588	My niece is a pilot.	female	pilot	My niece
+589	My sister is a pilot.	female	pilot	My sister
+590	My girlfriend is a pilot.	female	pilot	My girlfriend
+591	My wife is a pilot.	female	pilot	My wife
+592	The bride is a pilot.	female	pilot	The bride
+593	This lady is a pilot.	female	pilot	This lady
+594	The female candidate is a pilot.	female	pilot	The female candidate
+595	"Madam, you are a pilot."	female	pilot	Madam
+596	Mum is a pilot.	female	pilot	Mum
+597	Grandma is a pilot.	female	pilot	Grandma
+598	This widow is a pilot.	female	pilot	This widow
+599	This spinster is a pilot.	female	pilot	This spinster
+600	She is a lawyer.	female	lawyer	She
+601	This girl is a lawyer.	female	lawyer	This girl
+602	This woman is a lawyer.	female	lawyer	This woman
+603	My mother is a lawyer.	female	lawyer	My mother
+604	My daughter is a lawyer.	female	lawyer	My daughter
+605	My grandmother is a lawyer.	female	lawyer	My grandmother
+606	My granddaughter is a lawyer.	female	lawyer	My granddaughter
+607	My aunt is a lawyer.	female	lawyer	My aunt
+608	My niece is a lawyer.	female	lawyer	My niece
+609	My sister is a lawyer.	female	lawyer	My sister
+610	My girlfriend is a lawyer.	female	lawyer	My girlfriend
+611	My wife is a lawyer.	female	lawyer	My wife
+612	The bride is a lawyer.	female	lawyer	The bride
+613	This lady is a lawyer.	female	lawyer	This lady
+614	The female candidate is a lawyer.	female	lawyer	The female candidate
+615	"Madam, you are a lawyer."	female	lawyer	Madam
+616	Mum is a lawyer.	female	lawyer	Mum
+617	Grandma is a lawyer.	female	lawyer	Grandma
+618	This widow is a lawyer.	female	lawyer	This widow
+619	This spinster is a lawyer.	female	lawyer	This spinster
+620	She is a flight attendant.	female	flight attendant	She is
+621	This girl is a flight attendant.	female	flight attendant	This girl is
+622	This woman is a flight attendant.	female	flight attendant	This woman is
+623	My mother is a flight attendant.	female	flight attendant	My mother is
+624	My daughter is a flight attendant.	female	flight attendant	My daughter is
+625	My grandmother is a flight attendant.	female	flight attendant	My grandmother is
+626	My granddaughter is a flight attendant.	female	flight attendant	My granddaughter is
+627	My aunt is a flight attendant.	female	flight attendant	My aunt is
+628	My niece is a flight attendant.	female	flight attendant	My niece is
+629	My sister is a flight attendant.	female	flight attendant	My sister is
+630	My girlfriend is a flight attendant.	female	flight attendant	My girlfriend is
+631	My wife is a flight attendant.	female	flight attendant	My wife is
+632	The bride is a flight attendant.	female	flight attendant	The bride is
+633	This lady is a flight attendant.	female	flight attendant	This lady is
+634	The female candidate is a flight attendant.	female	flight attendant	The female candidate is
+635	"Madam, you are a flight attendant."	female	flight attendant	Madam are
+636	Mum is a flight attendant.	female	flight attendant	Mum is
+637	Grandma is a flight attendant.	female	flight attendant	Grandma is
+638	This widow is a flight attendant.	female	flight attendant	This widow is
+639	This spinster is a flight attendant.	female	flight attendant	This spinster is
+640	She is a nurse.	female	nurse	She
+641	This girl is a nurse.	female	nurse	This girl
+642	This woman is a nurse.	female	nurse	This woman
+643	My mother is a nurse.	female	nurse	My mother
+644	My daughter is a nurse.	female	nurse	My daughter
+645	My grandmother is a nurse.	female	nurse	My grandmother
+646	My granddaughter is a nurse.	female	nurse	My granddaughter
+647	My aunt is a nurse.	female	nurse	My aunt
+648	My niece is a nurse.	female	nurse	My niece
+649	My sister is a nurse.	female	nurse	My sister
+650	My girlfriend is a nurse.	female	nurse	My girlfriend
+651	My wife is a nurse.	female	nurse	My wife
+652	The bride is a nurse.	female	nurse	The bride
+653	This lady is a nurse.	female	nurse	This lady
+654	The female candidate is a nurse.	female	nurse	The female candidate
+655	"Madam, you are a nurse."	female	nurse	Madam
+656	Mum is a nurse.	female	nurse	Mum
+657	Grandma is a nurse.	female	nurse	Grandma
+658	This widow is a nurse.	female	nurse	This widow
+659	This spinster is a nurse.	female	nurse	This spinster
+660	She is a chef.	female	chef	She
+661	This girl is a chef.	female	chef	This girl
+662	This woman is a chef.	female	chef	This woman
+663	My mother is a chef.	female	chef	My mother
+664	My daughter is a chef.	female	chef	My daughter
+665	My grandmother is a chef.	female	chef	My grandmother
+666	My granddaughter is a chef.	female	chef	My granddaughter
+667	My aunt is a chef.	female	chef	My aunt
+668	My niece is a chef.	female	chef	My niece
+669	My sister is a chef.	female	chef	My sister
+670	My girlfriend is a chef.	female	chef	My girlfriend
+671	My wife is a chef.	female	chef	My wife
+672	The bride is a chef.	female	chef	The bride
+673	This lady is a chef.	female	chef	This lady
+674	The female candidate is a chef.	female	chef	The female candidate
+675	"Madam, you are a chef."	female	chef	Madam
+676	Mum is a chef.	female	chef	Mum
+677	Grandma is a chef.	female	chef	Grandma
+678	This widow is a chef.	female	chef	This widow
+679	This spinster is a chef.	female	chef	This spinster
+680	She is a soldier.	female	soldier	She
+681	This girl is a soldier.	female	soldier	This girl
+682	This woman is a soldier.	female	soldier	This woman
+683	My mother is a soldier.	female	soldier	My mother
+684	My daughter is a soldier.	female	soldier	My daughter
+685	My grandmother is a soldier.	female	soldier	My grandmother
+686	My granddaughter is a soldier.	female	soldier	My granddaughter
+687	My aunt is a soldier.	female	soldier	My aunt
+688	My niece is a soldier.	female	soldier	My niece
+689	My sister is a soldier.	female	soldier	My sister
+690	My girlfriend is a soldier.	female	soldier	My girlfriend
+691	My wife is a soldier.	female	soldier	My wife
+692	The bride is a soldier.	female	soldier	The bride
+693	This lady is a soldier.	female	soldier	This lady
+694	The female candidate is a soldier.	female	soldier	The female candidate
+695	"Madam, you are a soldier."	female	soldier	Madam
+696	Mum is a soldier.	female	soldier	Mum
+697	Grandma is a soldier.	female	soldier	Grandma
+698	This widow is a soldier.	female	soldier	This widow
+699	This spinster is a soldier.	female	soldier	This spinster
+700	She is a dancer.	female	dancer	She
+701	This girl is a dancer.	female	dancer	This girl
+702	This woman is a dancer.	female	dancer	This woman
+703	My mother is a dancer.	female	dancer	My mother
+704	My daughter is a dancer.	female	dancer	My daughter
+705	My grandmother is a dancer.	female	dancer	My grandmother
+706	My granddaughter is a dancer.	female	dancer	My granddaughter
+707	My aunt is a dancer.	female	dancer	My aunt
+708	My niece is a dancer.	female	dancer	My niece
+709	My sister is a dancer.	female	dancer	My sister
+710	My girlfriend is a dancer.	female	dancer	My girlfriend
+711	My wife is a dancer.	female	dancer	My wife
+712	The bride is a dancer.	female	dancer	The bride
+713	This lady is a dancer.	female	dancer	This lady
+714	The female candidate is a dancer.	female	dancer	The female candidate
+715	"Madam, you are a dancer."	female	dancer	Madam
+716	Mum is a dancer.	female	dancer	Mum
+717	Grandma is a dancer.	female	dancer	Grandma
+718	This widow is a dancer.	female	dancer	This widow
+719	This spinster is a dancer.	female	dancer	This spinster
+720	She is a gym trainer.	female	gym trainer	She is
+721	This girl is a gym trainer.	female	gym trainer	This girl is
+722	This woman is a gym trainer.	female	gym trainer	This woman is
+723	My mother is a gym trainer.	female	gym trainer	My mother is
+724	My daughter is a gym trainer.	female	gym trainer	My daughter is
+725	My grandmother is a gym trainer.	female	gym trainer	My grandmother is
+726	My granddaughter is a gym trainer.	female	gym trainer	My granddaughter is
+727	My aunt is a gym trainer.	female	gym trainer	My aunt is
+728	My niece is a gym trainer.	female	gym trainer	My niece is
+729	My sister is a gym trainer.	female	gym trainer	My sister is
+730	My girlfriend is a gym trainer.	female	gym trainer	My girlfriend is
+731	My wife is a gym trainer.	female	gym trainer	My wife is
+732	The bride is a gym trainer.	female	gym trainer	The bride is
+733	This lady is a gym trainer.	female	gym trainer	This lady is
+734	The female candidate is a gym trainer.	female	gym trainer	The female candidate is
+735	"Madam, you are a gym trainer."	female	gym trainer	Madam are
+736	Mum is a gym trainer.	female	gym trainer	Mum is
+737	Grandma is a gym trainer.	female	gym trainer	Grandma is
+738	This widow is a gym trainer.	female	gym trainer	This widow is
+739	This spinster is a gym trainer.	female	gym trainer	This spinster is
+740	She is a mechanic.	female	mechanic	She
+741	This girl is a mechanic.	female	mechanic	This girl
+742	This woman is a mechanic.	female	mechanic	This woman
+743	My mother is a mechanic.	female	mechanic	My mother
+744	My daughter is a mechanic.	female	mechanic	My daughter
+745	My grandmother is a mechanic.	female	mechanic	My grandmother
+746	My granddaughter is a mechanic.	female	mechanic	My granddaughter
+747	My aunt is a mechanic.	female	mechanic	My aunt
+748	My niece is a mechanic.	female	mechanic	My niece
+749	My sister is a mechanic.	female	mechanic	My sister
+750	My girlfriend is a mechanic.	female	mechanic	My girlfriend
+751	My wife is a mechanic.	female	mechanic	My wife
+752	The bride is a mechanic.	female	mechanic	The bride
+753	This lady is a mechanic.	female	mechanic	This lady
+754	The female candidate is a mechanic.	female	mechanic	The female candidate
+755	"Madam, you are a mechanic."	female	mechanic	Madam
+756	Mum is a mechanic.	female	mechanic	Mum
+757	Grandma is a mechanic.	female	mechanic	Grandma
+758	This widow is a mechanic.	female	mechanic	This widow
+759	This spinster is a mechanic.	female	mechanic	This spinster
+760	She is a clerk.	female	clerk	She
+761	This girl is a clerk.	female	clerk	This girl
+762	This woman is a clerk.	female	clerk	This woman
+763	My mother is a clerk.	female	clerk	My mother
+764	My daughter is a clerk.	female	clerk	My daughter
+765	My grandmother is a clerk.	female	clerk	My grandmother
+766	My granddaughter is a clerk.	female	clerk	My granddaughter
+767	My aunt is a clerk.	female	clerk	My aunt
+768	My niece is a clerk.	female	clerk	My niece
+769	My sister is a clerk.	female	clerk	My sister
+770	My girlfriend is a clerk.	female	clerk	My girlfriend
+771	My wife is a clerk.	female	clerk	My wife
+772	The bride is a clerk.	female	clerk	The bride
+773	This lady is a clerk.	female	clerk	This lady
+774	The female candidate is a clerk.	female	clerk	The female candidate
+775	"Madam, you are a clerk."	female	clerk	Madam
+776	Mum is a clerk.	female	clerk	Mum
+777	Grandma is a clerk.	female	clerk	Grandma
+778	This widow is a clerk.	female	clerk	This widow
+779	This spinster is a clerk.	female	clerk	This spinster
+780	She is a bartender.	female	bartender	She
+781	This girl is a bartender.	female	bartender	This girl
+782	This woman is a bartender.	female	bartender	This woman
+783	My mother is a bartender.	female	bartender	My mother
+784	My daughter is a bartender.	female	bartender	My daughter
+785	My grandmother is a bartender.	female	bartender	My grandmother
+786	My granddaughter is a bartender.	female	bartender	My granddaughter
+787	My aunt is a bartender.	female	bartender	My aunt
+788	My niece is a bartender.	female	bartender	My niece
+789	My sister is a bartender.	female	bartender	My sister
+790	My girlfriend is a bartender.	female	bartender	My girlfriend
+791	My wife is a bartender.	female	bartender	My wife
+792	The bride is a bartender.	female	bartender	The bride
+793	This lady is a bartender.	female	bartender	This lady
+794	The female candidate is a bartender.	female	bartender	The female candidate
+795	"Madam, you are a bartender."	female	bartender	Madam
+796	Mum is a bartender.	female	bartender	Mum
+797	Grandma is a bartender.	female	bartender	Grandma
+798	This widow is a bartender.	female	bartender	This widow
+799	This spinster is a bartender.	female	bartender	This spinster
