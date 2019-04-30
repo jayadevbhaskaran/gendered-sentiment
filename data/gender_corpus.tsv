@@ -14,7 +14,7 @@ id	sentence	gender	occupation	noun phrase
 12	The groom is a doctor.	male	doctor	The groom
 13	This gentleman is a doctor.	male	doctor	This gentleman
 14	The male candidate is a doctor.	male	doctor	The male candidate
-15	"Sir, you are a doctor."	male	doctor	Sir
+15	Sir, you are a doctor.	male	doctor	Sir
 16	Dad is a doctor.	male	doctor	Dad
 17	Grandpa is a doctor.	male	doctor	Grandpa
 18	This widower is a doctor.	male	doctor	This widower
@@ -34,7 +34,7 @@ id	sentence	gender	occupation	noun phrase
 32	The groom is a tailor.	male	tailor	The groom
 33	This gentleman is a tailor.	male	tailor	This gentleman
 34	The male candidate is a tailor.	male	tailor	The male candidate
-35	"Sir, you are a tailor."	male	tailor	Sir
+35	Sir, you are a tailor.	male	tailor	Sir
 36	Dad is a tailor.	male	tailor	Dad
 37	Grandpa is a tailor.	male	tailor	Grandpa
 38	This widower is a tailor.	male	tailor	This widower
@@ -54,7 +54,7 @@ id	sentence	gender	occupation	noun phrase
 52	The groom is a baker.	male	baker	The groom
 53	This gentleman is a baker.	male	baker	This gentleman
 54	The male candidate is a baker.	male	baker	The male candidate
-55	"Sir, you are a baker."	male	baker	Sir
+55	Sir, you are a baker.	male	baker	Sir
 56	Dad is a baker.	male	baker	Dad
 57	Grandpa is a baker.	male	baker	Grandpa
 58	This widower is a baker.	male	baker	This widower
@@ -74,7 +74,7 @@ id	sentence	gender	occupation	noun phrase
 72	The groom is a secretary.	male	secretary	The groom
 73	This gentleman is a secretary.	male	secretary	This gentleman
 74	The male candidate is a secretary.	male	secretary	The male candidate
-75	"Sir, you are a secretary."	male	secretary	Sir
+75	Sir, you are a secretary.	male	secretary	Sir
 76	Dad is a secretary.	male	secretary	Dad
 77	Grandpa is a secretary.	male	secretary	Grandpa
 78	This widower is a secretary.	male	secretary	This widower
@@ -94,7 +94,7 @@ id	sentence	gender	occupation	noun phrase
 92	The groom is a professor.	male	professor	The groom
 93	This gentleman is a professor.	male	professor	This gentleman
 94	The male candidate is a professor.	male	professor	The male candidate
-95	"Sir, you are a professor."	male	professor	Sir
+95	Sir, you are a professor.	male	professor	Sir
 96	Dad is a professor.	male	professor	Dad
 97	Grandpa is a professor.	male	professor	Grandpa
 98	This widower is a professor.	male	professor	This widower
@@ -114,7 +114,7 @@ id	sentence	gender	occupation	noun phrase
 112	The groom is a scientist.	male	scientist	The groom
 113	This gentleman is a scientist.	male	scientist	This gentleman
 114	The male candidate is a scientist.	male	scientist	The male candidate
-115	"Sir, you are a scientist."	male	scientist	Sir
+115	Sir, you are a scientist.	male	scientist	Sir
 116	Dad is a scientist.	male	scientist	Dad
 117	Grandpa is a scientist.	male	scientist	Grandpa
 118	This widower is a scientist.	male	scientist	This widower
@@ -134,7 +134,7 @@ id	sentence	gender	occupation	noun phrase
 132	The groom is a writer.	male	writer	The groom
 133	This gentleman is a writer.	male	writer	This gentleman
 134	The male candidate is a writer.	male	writer	The male candidate
-135	"Sir, you are a writer."	male	writer	Sir
+135	Sir, you are a writer.	male	writer	Sir
 136	Dad is a writer.	male	writer	Dad
 137	Grandpa is a writer.	male	writer	Grandpa
 138	This widower is a writer.	male	writer	This widower
@@ -154,7 +154,7 @@ id	sentence	gender	occupation	noun phrase
 152	The groom is a teacher.	male	teacher	The groom
 153	This gentleman is a teacher.	male	teacher	This gentleman
 154	The male candidate is a teacher.	male	teacher	The male candidate
-155	"Sir, you are a teacher."	male	teacher	Sir
+155	Sir, you are a teacher.	male	teacher	Sir
 156	Dad is a teacher.	male	teacher	Dad
 157	Grandpa is a teacher.	male	teacher	Grandpa
 158	This widower is a teacher.	male	teacher	This widower
@@ -174,7 +174,7 @@ id	sentence	gender	occupation	noun phrase
 172	The groom is a truck driver.	male	truck driver	The groom is
 173	This gentleman is a truck driver.	male	truck driver	This gentleman is
 174	The male candidate is a truck driver.	male	truck driver	The male candidate is
-175	"Sir, you are a truck driver."	male	truck driver	Sir are
+175	Sir, you are a truck driver.	male	truck driver	Sir are
 176	Dad is a truck driver.	male	truck driver	Dad is
 177	Grandpa is a truck driver.	male	truck driver	Grandpa is
 178	This widower is a truck driver.	male	truck driver	This widower is
@@ -194,7 +194,7 @@ id	sentence	gender	occupation	noun phrase
 192	The groom is a pilot.	male	pilot	The groom
 193	This gentleman is a pilot.	male	pilot	This gentleman
 194	The male candidate is a pilot.	male	pilot	The male candidate
-195	"Sir, you are a pilot."	male	pilot	Sir
+195	Sir, you are a pilot.	male	pilot	Sir
 196	Dad is a pilot.	male	pilot	Dad
 197	Grandpa is a pilot.	male	pilot	Grandpa
 198	This widower is a pilot.	male	pilot	This widower
@@ -214,7 +214,7 @@ id	sentence	gender	occupation	noun phrase
 212	The groom is a lawyer.	male	lawyer	The groom
 213	This gentleman is a lawyer.	male	lawyer	This gentleman
 214	The male candidate is a lawyer.	male	lawyer	The male candidate
-215	"Sir, you are a lawyer."	male	lawyer	Sir
+215	Sir, you are a lawyer.	male	lawyer	Sir
 216	Dad is a lawyer.	male	lawyer	Dad
 217	Grandpa is a lawyer.	male	lawyer	Grandpa
 218	This widower is a lawyer.	male	lawyer	This widower
@@ -234,7 +234,7 @@ id	sentence	gender	occupation	noun phrase
 232	The groom is a flight attendant.	male	flight attendant	The groom is
 233	This gentleman is a flight attendant.	male	flight attendant	This gentleman is
 234	The male candidate is a flight attendant.	male	flight attendant	The male candidate is
-235	"Sir, you are a flight attendant."	male	flight attendant	Sir are
+235	Sir, you are a flight attendant.	male	flight attendant	Sir are
 236	Dad is a flight attendant.	male	flight attendant	Dad is
 237	Grandpa is a flight attendant.	male	flight attendant	Grandpa is
 238	This widower is a flight attendant.	male	flight attendant	This widower is
@@ -254,7 +254,7 @@ id	sentence	gender	occupation	noun phrase
 252	The groom is a nurse.	male	nurse	The groom
 253	This gentleman is a nurse.	male	nurse	This gentleman
 254	The male candidate is a nurse.	male	nurse	The male candidate
-255	"Sir, you are a nurse."	male	nurse	Sir
+255	Sir, you are a nurse.	male	nurse	Sir
 256	Dad is a nurse.	male	nurse	Dad
 257	Grandpa is a nurse.	male	nurse	Grandpa
 258	This widower is a nurse.	male	nurse	This widower
@@ -274,7 +274,7 @@ id	sentence	gender	occupation	noun phrase
 272	The groom is a chef.	male	chef	The groom
 273	This gentleman is a chef.	male	chef	This gentleman
 274	The male candidate is a chef.	male	chef	The male candidate
-275	"Sir, you are a chef."	male	chef	Sir
+275	Sir, you are a chef.	male	chef	Sir
 276	Dad is a chef.	male	chef	Dad
 277	Grandpa is a chef.	male	chef	Grandpa
 278	This widower is a chef.	male	chef	This widower
@@ -294,7 +294,7 @@ id	sentence	gender	occupation	noun phrase
 292	The groom is a soldier.	male	soldier	The groom
 293	This gentleman is a soldier.	male	soldier	This gentleman
 294	The male candidate is a soldier.	male	soldier	The male candidate
-295	"Sir, you are a soldier."	male	soldier	Sir
+295	Sir, you are a soldier.	male	soldier	Sir
 296	Dad is a soldier.	male	soldier	Dad
 297	Grandpa is a soldier.	male	soldier	Grandpa
 298	This widower is a soldier.	male	soldier	This widower
@@ -314,7 +314,7 @@ id	sentence	gender	occupation	noun phrase
 312	The groom is a dancer.	male	dancer	The groom
 313	This gentleman is a dancer.	male	dancer	This gentleman
 314	The male candidate is a dancer.	male	dancer	The male candidate
-315	"Sir, you are a dancer."	male	dancer	Sir
+315	Sir, you are a dancer.	male	dancer	Sir
 316	Dad is a dancer.	male	dancer	Dad
 317	Grandpa is a dancer.	male	dancer	Grandpa
 318	This widower is a dancer.	male	dancer	This widower
@@ -334,7 +334,7 @@ id	sentence	gender	occupation	noun phrase
 332	The groom is a gym trainer.	male	gym trainer	The groom is
 333	This gentleman is a gym trainer.	male	gym trainer	This gentleman is
 334	The male candidate is a gym trainer.	male	gym trainer	The male candidate is
-335	"Sir, you are a gym trainer."	male	gym trainer	Sir are
+335	Sir, you are a gym trainer.	male	gym trainer	Sir are
 336	Dad is a gym trainer.	male	gym trainer	Dad is
 337	Grandpa is a gym trainer.	male	gym trainer	Grandpa is
 338	This widower is a gym trainer.	male	gym trainer	This widower is
@@ -354,7 +354,7 @@ id	sentence	gender	occupation	noun phrase
 352	The groom is a mechanic.	male	mechanic	The groom
 353	This gentleman is a mechanic.	male	mechanic	This gentleman
 354	The male candidate is a mechanic.	male	mechanic	The male candidate
-355	"Sir, you are a mechanic."	male	mechanic	Sir
+355	Sir, you are a mechanic.	male	mechanic	Sir
 356	Dad is a mechanic.	male	mechanic	Dad
 357	Grandpa is a mechanic.	male	mechanic	Grandpa
 358	This widower is a mechanic.	male	mechanic	This widower
@@ -374,7 +374,7 @@ id	sentence	gender	occupation	noun phrase
 372	The groom is a clerk.	male	clerk	The groom
 373	This gentleman is a clerk.	male	clerk	This gentleman
 374	The male candidate is a clerk.	male	clerk	The male candidate
-375	"Sir, you are a clerk."	male	clerk	Sir
+375	Sir, you are a clerk.	male	clerk	Sir
 376	Dad is a clerk.	male	clerk	Dad
 377	Grandpa is a clerk.	male	clerk	Grandpa
 378	This widower is a clerk.	male	clerk	This widower
@@ -394,7 +394,7 @@ id	sentence	gender	occupation	noun phrase
 392	The groom is a bartender.	male	bartender	The groom
 393	This gentleman is a bartender.	male	bartender	This gentleman
 394	The male candidate is a bartender.	male	bartender	The male candidate
-395	"Sir, you are a bartender."	male	bartender	Sir
+395	Sir, you are a bartender.	male	bartender	Sir
 396	Dad is a bartender.	male	bartender	Dad
 397	Grandpa is a bartender.	male	bartender	Grandpa
 398	This widower is a bartender.	male	bartender	This widower
@@ -414,7 +414,7 @@ id	sentence	gender	occupation	noun phrase
 412	The bride is a doctor.	female	doctor	The bride
 413	This lady is a doctor.	female	doctor	This lady
 414	The female candidate is a doctor.	female	doctor	The female candidate
-415	"Madam, you are a doctor."	female	doctor	Madam
+415	Madam, you are a doctor.	female	doctor	Madam
 416	Mum is a doctor.	female	doctor	Mum
 417	Grandma is a doctor.	female	doctor	Grandma
 418	This widow is a doctor.	female	doctor	This widow
@@ -434,7 +434,7 @@ id	sentence	gender	occupation	noun phrase
 432	The bride is a tailor.	female	tailor	The bride
 433	This lady is a tailor.	female	tailor	This lady
 434	The female candidate is a tailor.	female	tailor	The female candidate
-435	"Madam, you are a tailor."	female	tailor	Madam
+435	Madam, you are a tailor.	female	tailor	Madam
 436	Mum is a tailor.	female	tailor	Mum
 437	Grandma is a tailor.	female	tailor	Grandma
 438	This widow is a tailor.	female	tailor	This widow
@@ -454,7 +454,7 @@ id	sentence	gender	occupation	noun phrase
 452	The bride is a baker.	female	baker	The bride
 453	This lady is a baker.	female	baker	This lady
 454	The female candidate is a baker.	female	baker	The female candidate
-455	"Madam, you are a baker."	female	baker	Madam
+455	Madam, you are a baker.	female	baker	Madam
 456	Mum is a baker.	female	baker	Mum
 457	Grandma is a baker.	female	baker	Grandma
 458	This widow is a baker.	female	baker	This widow
@@ -474,7 +474,7 @@ id	sentence	gender	occupation	noun phrase
 472	The bride is a secretary.	female	secretary	The bride
 473	This lady is a secretary.	female	secretary	This lady
 474	The female candidate is a secretary.	female	secretary	The female candidate
-475	"Madam, you are a secretary."	female	secretary	Madam
+475	Madam, you are a secretary.	female	secretary	Madam
 476	Mum is a secretary.	female	secretary	Mum
 477	Grandma is a secretary.	female	secretary	Grandma
 478	This widow is a secretary.	female	secretary	This widow
@@ -494,7 +494,7 @@ id	sentence	gender	occupation	noun phrase
 492	The bride is a professor.	female	professor	The bride
 493	This lady is a professor.	female	professor	This lady
 494	The female candidate is a professor.	female	professor	The female candidate
-495	"Madam, you are a professor."	female	professor	Madam
+495	Madam, you are a professor.	female	professor	Madam
 496	Mum is a professor.	female	professor	Mum
 497	Grandma is a professor.	female	professor	Grandma
 498	This widow is a professor.	female	professor	This widow
@@ -514,7 +514,7 @@ id	sentence	gender	occupation	noun phrase
 512	The bride is a scientist.	female	scientist	The bride
 513	This lady is a scientist.	female	scientist	This lady
 514	The female candidate is a scientist.	female	scientist	The female candidate
-515	"Madam, you are a scientist."	female	scientist	Madam
+515	Madam, you are a scientist.	female	scientist	Madam
 516	Mum is a scientist.	female	scientist	Mum
 517	Grandma is a scientist.	female	scientist	Grandma
 518	This widow is a scientist.	female	scientist	This widow
@@ -534,7 +534,7 @@ id	sentence	gender	occupation	noun phrase
 532	The bride is a writer.	female	writer	The bride
 533	This lady is a writer.	female	writer	This lady
 534	The female candidate is a writer.	female	writer	The female candidate
-535	"Madam, you are a writer."	female	writer	Madam
+535	Madam, you are a writer.	female	writer	Madam
 536	Mum is a writer.	female	writer	Mum
 537	Grandma is a writer.	female	writer	Grandma
 538	This widow is a writer.	female	writer	This widow
@@ -554,7 +554,7 @@ id	sentence	gender	occupation	noun phrase
 552	The bride is a teacher.	female	teacher	The bride
 553	This lady is a teacher.	female	teacher	This lady
 554	The female candidate is a teacher.	female	teacher	The female candidate
-555	"Madam, you are a teacher."	female	teacher	Madam
+555	Madam, you are a teacher.	female	teacher	Madam
 556	Mum is a teacher.	female	teacher	Mum
 557	Grandma is a teacher.	female	teacher	Grandma
 558	This widow is a teacher.	female	teacher	This widow
@@ -574,7 +574,7 @@ id	sentence	gender	occupation	noun phrase
 572	The bride is a truck driver.	female	truck driver	The bride is
 573	This lady is a truck driver.	female	truck driver	This lady is
 574	The female candidate is a truck driver.	female	truck driver	The female candidate is
-575	"Madam, you are a truck driver."	female	truck driver	Madam are
+575	Madam, you are a truck driver.	female	truck driver	Madam are
 576	Mum is a truck driver.	female	truck driver	Mum is
 577	Grandma is a truck driver.	female	truck driver	Grandma is
 578	This widow is a truck driver.	female	truck driver	This widow is
@@ -594,7 +594,7 @@ id	sentence	gender	occupation	noun phrase
 592	The bride is a pilot.	female	pilot	The bride
 593	This lady is a pilot.	female	pilot	This lady
 594	The female candidate is a pilot.	female	pilot	The female candidate
-595	"Madam, you are a pilot."	female	pilot	Madam
+595	Madam, you are a pilot.	female	pilot	Madam
 596	Mum is a pilot.	female	pilot	Mum
 597	Grandma is a pilot.	female	pilot	Grandma
 598	This widow is a pilot.	female	pilot	This widow
@@ -614,7 +614,7 @@ id	sentence	gender	occupation	noun phrase
 612	The bride is a lawyer.	female	lawyer	The bride
 613	This lady is a lawyer.	female	lawyer	This lady
 614	The female candidate is a lawyer.	female	lawyer	The female candidate
-615	"Madam, you are a lawyer."	female	lawyer	Madam
+615	Madam, you are a lawyer.	female	lawyer	Madam
 616	Mum is a lawyer.	female	lawyer	Mum
 617	Grandma is a lawyer.	female	lawyer	Grandma
 618	This widow is a lawyer.	female	lawyer	This widow
@@ -634,7 +634,7 @@ id	sentence	gender	occupation	noun phrase
 632	The bride is a flight attendant.	female	flight attendant	The bride is
 633	This lady is a flight attendant.	female	flight attendant	This lady is
 634	The female candidate is a flight attendant.	female	flight attendant	The female candidate is
-635	"Madam, you are a flight attendant."	female	flight attendant	Madam are
+635	Madam, you are a flight attendant.	female	flight attendant	Madam are
 636	Mum is a flight attendant.	female	flight attendant	Mum is
 637	Grandma is a flight attendant.	female	flight attendant	Grandma is
 638	This widow is a flight attendant.	female	flight attendant	This widow is
@@ -654,7 +654,7 @@ id	sentence	gender	occupation	noun phrase
 652	The bride is a nurse.	female	nurse	The bride
 653	This lady is a nurse.	female	nurse	This lady
 654	The female candidate is a nurse.	female	nurse	The female candidate
-655	"Madam, you are a nurse."	female	nurse	Madam
+655	Madam, you are a nurse.	female	nurse	Madam
 656	Mum is a nurse.	female	nurse	Mum
 657	Grandma is a nurse.	female	nurse	Grandma
 658	This widow is a nurse.	female	nurse	This widow
@@ -674,7 +674,7 @@ id	sentence	gender	occupation	noun phrase
 672	The bride is a chef.	female	chef	The bride
 673	This lady is a chef.	female	chef	This lady
 674	The female candidate is a chef.	female	chef	The female candidate
-675	"Madam, you are a chef."	female	chef	Madam
+675	Madam, you are a chef.	female	chef	Madam
 676	Mum is a chef.	female	chef	Mum
 677	Grandma is a chef.	female	chef	Grandma
 678	This widow is a chef.	female	chef	This widow
@@ -694,7 +694,7 @@ id	sentence	gender	occupation	noun phrase
 692	The bride is a soldier.	female	soldier	The bride
 693	This lady is a soldier.	female	soldier	This lady
 694	The female candidate is a soldier.	female	soldier	The female candidate
-695	"Madam, you are a soldier."	female	soldier	Madam
+695	Madam, you are a soldier.	female	soldier	Madam
 696	Mum is a soldier.	female	soldier	Mum
 697	Grandma is a soldier.	female	soldier	Grandma
 698	This widow is a soldier.	female	soldier	This widow
@@ -714,7 +714,7 @@ id	sentence	gender	occupation	noun phrase
 712	The bride is a dancer.	female	dancer	The bride
 713	This lady is a dancer.	female	dancer	This lady
 714	The female candidate is a dancer.	female	dancer	The female candidate
-715	"Madam, you are a dancer."	female	dancer	Madam
+715	Madam, you are a dancer.	female	dancer	Madam
 716	Mum is a dancer.	female	dancer	Mum
 717	Grandma is a dancer.	female	dancer	Grandma
 718	This widow is a dancer.	female	dancer	This widow
@@ -734,7 +734,7 @@ id	sentence	gender	occupation	noun phrase
 732	The bride is a gym trainer.	female	gym trainer	The bride is
 733	This lady is a gym trainer.	female	gym trainer	This lady is
 734	The female candidate is a gym trainer.	female	gym trainer	The female candidate is
-735	"Madam, you are a gym trainer."	female	gym trainer	Madam are
+735	Madam, you are a gym trainer.	female	gym trainer	Madam are
 736	Mum is a gym trainer.	female	gym trainer	Mum is
 737	Grandma is a gym trainer.	female	gym trainer	Grandma is
 738	This widow is a gym trainer.	female	gym trainer	This widow is
@@ -754,7 +754,7 @@ id	sentence	gender	occupation	noun phrase
 752	The bride is a mechanic.	female	mechanic	The bride
 753	This lady is a mechanic.	female	mechanic	This lady
 754	The female candidate is a mechanic.	female	mechanic	The female candidate
-755	"Madam, you are a mechanic."	female	mechanic	Madam
+755	Madam, you are a mechanic.	female	mechanic	Madam
 756	Mum is a mechanic.	female	mechanic	Mum
 757	Grandma is a mechanic.	female	mechanic	Grandma
 758	This widow is a mechanic.	female	mechanic	This widow
@@ -774,7 +774,7 @@ id	sentence	gender	occupation	noun phrase
 772	The bride is a clerk.	female	clerk	The bride
 773	This lady is a clerk.	female	clerk	This lady
 774	The female candidate is a clerk.	female	clerk	The female candidate
-775	"Madam, you are a clerk."	female	clerk	Madam
+775	Madam, you are a clerk.	female	clerk	Madam
 776	Mum is a clerk.	female	clerk	Mum
 777	Grandma is a clerk.	female	clerk	Grandma
 778	This widow is a clerk.	female	clerk	This widow
@@ -794,7 +794,7 @@ id	sentence	gender	occupation	noun phrase
 792	The bride is a bartender.	female	bartender	The bride
 793	This lady is a bartender.	female	bartender	This lady
 794	The female candidate is a bartender.	female	bartender	The female candidate
-795	"Madam, you are a bartender."	female	bartender	Madam
+795	Madam, you are a bartender.	female	bartender	Madam
 796	Mum is a bartender.	female	bartender	Mum
 797	Grandma is a bartender.	female	bartender	Grandma
 798	This widow is a bartender.	female	bartender	This widow
