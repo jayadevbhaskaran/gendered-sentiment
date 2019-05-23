@@ -20,7 +20,7 @@ def ttest(preds):
     n = int(len(preds) / 2)
     male_probs = preds[:n]
     female_probs = preds[n:]
-    (t, prob) = ttest_ind(male_probs, female_probs)
+    (t, prob) = ttest_ind(male_probs, female_probs, equal_var=False)
     diff = np.mean(female_probs) - np.mean(male_probs)
     print(np.mean(male_probs), np.mean(female_probs), diff, prob)
     return (t, prob, diff)
