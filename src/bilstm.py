@@ -71,6 +71,8 @@ model.fit(train_data, train_labels, validation_data=(dev_data, dev_labels),
           epochs=3, shuffle=False,
       )
 
+model.save(Config.LSTM_MODEL_FILE)
+
 dev_preds = [int(item[1] >= 0.5) for item in model.predict_proba(dev_data)]
 print(accuracy_score(y_dev, dev_preds))
 

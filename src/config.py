@@ -7,6 +7,7 @@ class Config:
     RUNS_DIR = Path(join(BASE_DIR, "runs"))
     GLOVE_DIR = Path(join(DATA_DIR, "glove.6b"))
     GLOVE_FILE = Path(join(GLOVE_DIR, "glove.6b.300d.txt"))
+    LSTM_MODEL_FILE = Path(join(RUNS_DIR, "lstm.h5"))
     LOGREG_FILE = Path(join(RUNS_DIR, "logreg.txt"))
     LSTM_FILE = Path(join(RUNS_DIR, "lstm.txt"))
     BERT_FILE = Path(join(Path(join(RUNS_DIR, "gender")), "test_results.tsv"))
