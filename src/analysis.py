@@ -18,6 +18,9 @@ preds1 = list(np.array(pd.read_csv(Config.LSTM_FILE, encoding="utf8")).reshape(-
 results.append([t1, prob1, diff1])
 
 #BERT
+#Note: Last 40 BERT predictions are for control experiment, i.e.,
+#"This man is a person."/"This woman is a person."
+#First 800 are as earlier, from corpus.
 df = pd.read_csv(Config.BERT_FILE, sep="\t", encoding="utf8", header=None, names=["neg", "pos"])
 preds2_with_control = list(np.array(df["pos"]).astype("float32"))
 preds2 = preds2_with_control[:800]
@@ -30,7 +33,7 @@ np.savetxt(Config.RESULTS_FILE, np.array(results),
            header="t prob f-m (models: logreg lstm bert)")
 print("\n")
 ###############################################################################
-#Ad-hoc analysis for gender differences in SST-2 train dataset
+#Gender differences in SST-2 train dataset
 train = pd.read_csv(Config.TSV_TRAIN, sep="\t", header=None, names=["idx", "class", "dummy", "text"])
 d = train.to_dict("records")
 m_list = []
@@ -41,7 +44,7 @@ for item in d:
         if m in words:
            m_list.append(item['_1'])
            break
-print(len(m_list), np.mean(m_list))       
+print("Male: ", len(m_list), np.mean(m_list))       
 
 f_list = []
 for item in d:
@@ -51,20 +54,14 @@ for item in d:
         if f in words:
            f_list.append(item['_1'])
            break
-print(len(f_list), np.mean(f_list))   
+print("Female: ", len(f_list), np.mean(f_list))   
 print("\n")
 
-'''
-for p in Config.PROFESSIONS:
-    p_list = []
-    for item in d:
-        words = item["text"].lower()
-        if p.lower() in words:
-            p_list.append(item['_1'])
-    print(p, len(p_list), np.mean(p_list))
-'''
 ###############################################################################
 #Ad-hoc analysis for each profession
+#1. Overall mean positive probability (perception of profession)
+#2. Diff. b/w female and male per profession (occupational gender stereotypes)
+print("Profession mean_sentiment female-male")
 i = 0
 map0 = {}
 map1 = {}
@@ -88,22 +85,12 @@ control_preds = []
 control = preds2_with_control[-40:]
 male_c = control[:20]
 female_c = control[20:]
-print("control", np.mean(female_c + male_c), np.mean(female_c) - np.mean(male_c))
+print("CONTROL", np.mean(female_c + male_c), np.mean(female_c) - np.mean(male_c))
 print("\n")
 ###############################################################################
-'''
+#Comparing between male/female (e.g., bachelor/spinster)
 sentences = utils.get_sentences()
-args0 = np.argsort(preds0)
-args1 = np.argsort(preds1)
-args2 = np.argsort(preds2)
-
-for i in range(10):
-    print(sentences[args2[i]])
-
-for i in range(10):
-    print(sentences[args2[799 - i]])
-'''
-###############################################################################
+print("noun female-male")
 for noun in Config.MALE_NOUNS:
     noun_preds = []
     i = 0
@@ -113,6 +100,7 @@ for noun in Config.MALE_NOUNS:
         i = i+1
     print(noun, np.mean(noun_preds))
    
+#Analyze bachelor vs. spinster
 bachelor = []
 spinster = []
 i = 0
@@ -122,5 +110,6 @@ for sentence in sentences:
         spinster.append(preds2[400+i])
     i = i +1
 bs = bachelor + spinster
-utils.ttest(bs)
+(t, prob, diff) = utils.ttest(bs)
+print("spinster-bachelor: ", diff, prob)
 ###############################################################################
