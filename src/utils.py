@@ -16,6 +16,14 @@ def get_sentences(gender=None):
         return sentences[g_count:]
     return sentences
 
+def get_control_sentences():
+    sentences = get_sentences()
+    m_ = sentences[:20]
+    f_ = sentences[400:420]
+    m_control = [s.replace("doctor", "person") for s in m_]
+    f_control = [s.replace("doctor", "person") for s in f_]
+    return m_control + f_control
+    
 def ttest(preds):
     n = int(len(preds) / 2)
     male_probs = preds[:n]

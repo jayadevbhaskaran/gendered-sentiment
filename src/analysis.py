@@ -19,7 +19,9 @@ results.append([t1, prob1, diff1])
 
 #BERT
 df = pd.read_csv(Config.BERT_FILE, sep="\t", encoding="utf8", header=None, names=["neg", "pos"])
-preds2 = list(np.array(df["pos"]).astype("float32"))
+preds2_with_control = list(np.array(df["pos"]).astype("float32"))
+preds2 = preds2_with_control[:800]
+
 (t2, prob2, diff2) = utils.ttest(preds2)
 results.append([t2, prob2, diff2])
 
