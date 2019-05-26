@@ -28,6 +28,7 @@ results.append([t2, prob2, diff2])
 print(results)
 np.savetxt(Config.RESULTS_FILE, np.array(results), 
            header="t prob f-m (models: logreg lstm bert)")
+print("\n")
 ###############################################################################
 #Ad-hoc analysis for gender differences in SST-2 train dataset
 train = pd.read_csv(Config.TSV_TRAIN, sep="\t", header=None, names=["idx", "class", "dummy", "text"])
@@ -51,6 +52,7 @@ for item in d:
            f_list.append(item['_1'])
            break
 print(len(f_list), np.mean(f_list))   
+print("\n")
 
 '''
 for p in Config.PROFESSIONS:
@@ -68,7 +70,6 @@ map0 = {}
 map1 = {}
 map2 = {}
 for p in Config.PROFESSIONS:
-    print(p)
     male0 = preds0[20*i:20*(i+1)]
     male1 = preds1[20*i:20*(i+1)]
     male2 = preds2[20*i:20*(i+1)]
@@ -79,10 +80,18 @@ for p in Config.PROFESSIONS:
     
     #print(np.mean(female0 + male0), np.mean(female0) - np.mean(male0), "\n")
     #print(np.mean(female1 + male1), np.mean(female1) - np.mean(male1), "\n")
-    print(np.mean(female2 + male2), np.mean(female2) - np.mean(male2), "\n")
+    print(p, np.mean(female2 + male2), np.mean(female2) - np.mean(male2))
     
     i = i+1
+
+control_preds = []
+control = preds2_with_control[-40:]
+male_c = control[:20]
+female_c = control[20:]
+print("control", np.mean(female_c + male_c), np.mean(female_c) - np.mean(male_c))
+print("\n")
 ###############################################################################
+'''
 sentences = utils.get_sentences()
 args0 = np.argsort(preds0)
 args1 = np.argsort(preds1)
@@ -93,6 +102,7 @@ for i in range(10):
 
 for i in range(10):
     print(sentences[args2[799 - i]])
+'''
 ###############################################################################
 for noun in Config.MALE_NOUNS:
     noun_preds = []
