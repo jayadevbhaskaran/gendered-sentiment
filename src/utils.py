@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 from sklearn.metrics import accuracy_score
-from scipy.stats import ttest_ind
+from scipy.stats import ttest_rel
 
 def get_sentences(gender=None):
     df = pd.read_csv(Config.TSV_TEST_GENDER, sep="\t", encoding="utf8")
@@ -20,7 +20,7 @@ def ttest(preds):
     n = int(len(preds) / 2)
     male_probs = preds[:n]
     female_probs = preds[n:]
-    (t, prob) = ttest_ind(male_probs, female_probs, equal_var=False)
+    (t, prob) = ttest_rel(male_probs, female_probs)
     diff = np.mean(female_probs) - np.mean(male_probs)
     print(np.mean(male_probs), np.mean(female_probs), diff, prob)
     return (t, prob, diff)
