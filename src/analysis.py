@@ -2,8 +2,10 @@ from config import Config
 import utils
 
 import numpy as np
+import matplotlib.pyplot as plt
 import pandas as pd
-
+import seaborn as sns
+sns.set()
 ###############################################################################
 #Print results
 results = []
@@ -75,8 +77,8 @@ for p in Config.PROFESSIONS:
     female1 = preds1[400 + 20*i:400 + 20*(i+1)]
     female2 = preds2[400 + 20*i:400 + 20*(i+1)]
     
-    #print(np.mean(female0 + male0), np.mean(female0) - np.mean(male0), "\n")
-    #print(np.mean(female1 + male1), np.mean(female1) - np.mean(male1), "\n")
+    #print(p, np.mean(female0 + male0), np.mean(female0) - np.mean(male0))
+    #print(p, np.mean(female1 + male1), np.mean(female1) - np.mean(male1))
     print(p, np.mean(female2 + male2), np.mean(female2) - np.mean(male2))
     
     i = i+1
@@ -113,3 +115,24 @@ bs = bachelor + spinster
 (t, prob, diff) = utils.ttest(bs)
 print("spinster-bachelor: ", diff, prob)
 ###############################################################################
+#Generate plot
+df = pd.read_csv(Config.PLOT_DATA_FILE, encoding="utf8")
+df = df.dropna(thresh=3)
+profession = list(np.array(df["Profession"]).astype("str"))
+sentiment = list(np.array(df["Sentiment"]).astype("float32"))
+earnings = list(np.array(df["Median Weekly Earnings"]).astype("int"))
+
+fig, ax = plt.subplots()
+ax.scatter(sentiment, earnings)
+
+for i, txt in enumerate(profession):
+    ax.annotate(txt, (sentiment[i] + 0.01, earnings[i] - 50))
+
+plt.xlabel("Mean predicted positive class probability (BERT)")
+plt.ylabel("Median Weekly Earnings (USD)")
+
+z = np.polyfit(sentiment, earnings, 1)
+p = np.poly1d(z)
+plt.plot(sentiment, p(sentiment), linewidth=0.5)
+plt.tight_layout()
+plt.savefig(str(Config.PLOT_FILE))

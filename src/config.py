@@ -16,8 +16,9 @@ class Config:
     TSV_TRAIN = Path(join(DATA_DIR, "train.tsv"))
     TSV_DEV = Path(join(DATA_DIR, "dev.tsv"))
     TSV_TEST_GENDER = Path(join(DATA_DIR, "gender.tsv"))
-    
-    
+    PLOT_DATA_FILE = Path(join(DATA_DIR, "plot_data.csv"))
+    PLOT_FILE = Path(join(RUNS_DIR, "plot.png"))
+
     SEED = 42
     MAX_SEQUENCE_LENGTH = 80
     
