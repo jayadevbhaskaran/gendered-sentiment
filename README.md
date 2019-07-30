@@ -8,7 +8,7 @@ Jayadev Bhaskaran and Isha Bhallamudi
 to appear at [ACL GeBNLP (Workshop on Gender Bias for NLP)](https://genderbiasnlp.talp.cat/) at ACL 2019, Florence, Italy.
 
 The final paper can be found here:
-https://arxiv.org/abs/1906.10256(https://arxiv.org/abs/1906.10256)
+[https://arxiv.org/abs/1906.1025] (https://arxiv.org/abs/1906.10256)
 
 ## Repository Structure
 - *data/gender_corpus.tsv* - New corpus to evaluate occupational gender stereotypes in sentiment analysis models. 
